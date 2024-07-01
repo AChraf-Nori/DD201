@@ -1,0 +1,47 @@
+   /* Laravel Commandes */
+1.commande pour installer laravel:
+    -> composer create-project laravel/laravel nom_de_project
+2. commande pour lancer laravel:
+    -> php artisan serve
+3.commande pour creer un Model:
+    -> php artisan make:model NomDeModel
+4. commande pour creer une migration:
+    -> php artisan make:migration create_nom_de_migration_table
+5.commande pour creer un Seeder:
+    -> php artisan make:seeder nomDeSeeder
+6.commande pour creer un Controller:
+    -> php artisan make:controller NomDeControlleur
+7.commande lancer les seeder:
+    -> php artisan db:seed
+=========================================================
+php artisan db:seed --class=UserSeeder
+
+8.commande pour creer un Middleware:
+    -> php artisan make:middleware NomDeMiddleware
+9.commande pour creer un controller de resource:
+    -> php artisan make:controller NomDeControlleur -r
+    // route in the web for the resource controller
+    -> Route::resource('route_name', NomDeControlleur::class)
+10.commande pour creer un model avec CRSM:
+    -> php artisan make:model NomDeModel -crsm
+11.commande pour installer breeze:
+    -> composer require laravel/breeze --dev
+    -> php artisan breeze:install
+12.commande pour creer un controlleur invoke:
+    -> php artisan make:controller NomDeControlleur --invokable
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+  
+
